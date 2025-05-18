@@ -1,0 +1,13 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/Tutoriels/.vs
+/.vs
+/Tutoriels/Tutoriels/obj
+*.user
+/Tutoriels/Common/bin/Debug/net9.0
+/Tutoriels/Common/obj
+/Tutoriels/Repository/bin/Debug/net9.0
+/Tutoriels/Repository/obj
+/Tutoriels/Tutoriels/bin/Debug/net9.0-android
