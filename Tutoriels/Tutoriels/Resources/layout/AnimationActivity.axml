@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<TextView 
+		android:id="@+id/tvtext"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_rounded_blue_rect"
+        android:text="un texte parmi tant d'autres" />
+
+	<ImageView
+		android:id="@+id/imgnapoleon"
+		android:layout_width="360dp"
+		android:layout_height="360dp"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:src="@drawable/napoleon2"
+		android:scaleType="centerCrop"
+		android:background="@drawable/shape_rectangle_1xred_transparent"
+		/>			
+
+	<ImageView
+		android:id="@+id/imgandroid"
+		android:layout_width="360dp"
+		android:layout_height="360dp"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:src="@drawable/napoleon2"
+		android:scaleType="centerCrop"
+		android:background="@drawable/shape_rectangle_1xred_transparent"
+		/>			
+	<Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/FormElementsButton" />
+</LinearLayout>

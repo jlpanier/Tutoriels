@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		style="@style/Text.Titre" />
+
+	<Spinner
+		android:id="@+id/spinner"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		style="@style/Spinner.Label"/>
+
+	<ScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+	>
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+	
+			<CheckBox 
+				android:id="@+id/cbAlternative"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Alternative"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbAppBrowser"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="AppBrowser"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbAppCalculator"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="AppCalculator"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbAppCalendar"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="AppCalendar"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbAppContacts"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="AppContacts"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbAppEmail"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="AppEmail"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbAppGallery"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="AppGallery"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbAppMaps"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="AppMaps"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbAppMarket"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="AppMarket"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbAppMessaging"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="AppMessaging"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbAppMusic"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="AppMusic"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbBrowsable"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Browsable"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbCarDock"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="CarDock"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbCarMode"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="CarMode"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbDefault"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Default"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbDeskDock"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="DeskDock"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbDevelopmentPreference"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Development"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbEmbed"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Embed"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbFrameworkInstrumentationTest"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Framework"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbHeDeskDock"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="HeDeskDock"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbHome"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Home"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbInfo"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Info"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbLauncher"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Launcher"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbLeanbackLauncher"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Leanback Launcher"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbLeDeskDock"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="LeDeskDock"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbMonkey"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Monkey"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbOpenable"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Openable"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbPreference"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Preference"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbSampleCode"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="SampleCode"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbSelectedAlternative"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="SelectedAlternative"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbTab"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Tab"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbTest"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Test"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbTypedOpenable"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="TypedOpenable"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbUnitTest"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="UnitTest"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbVoice"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Voice"
+				style="@style/Text.Label"/>	
+
+			<CheckBox 
+				android:id="@+id/cbVrHome"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="VrHome"
+				style="@style/Text.Label"/>	
+
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

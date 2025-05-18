@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_margin="@dimen/MarginXL">
+
+	<Tutoriels.Droid.Customs.HistogrammeView
+		android:id="@+id/idHisto"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_margin = "@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:textColor="@color/textColorPrimary"
+		android:textSize="@dimen/textH"
+		android:background="@color/windowBackground" />
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="2">
+		<RadioGroup
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_weight="2">
+			<RadioButton
+				android:id="@+id/radio_dirac_unitaire"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Dirac unitaire"
+				style="@style/Text.Label"/>
+			<RadioButton
+				android:id="@+id/radio_dirac"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Dirac"
+				style="@style/Text.Label"/>
+			<RadioButton
+				android:id="@+id/radio_chapeau"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Chapeau"
+				style="@style/Text.Label"/>
+			<RadioButton
+				android:id="@+id/radio_creneau"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Créneau"
+				style="@style/Text.Label"/>
+			<RadioButton
+				android:id="@+id/radio_dent_scie"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Dent de scie"
+				style="@style/Text.Label"/>
+			<RadioButton
+				android:id="@+id/radio_parabole"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Parabole périodique"
+				style="@style/Text.Label"/>
+		</RadioGroup>	
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="2"
+			android:layout_marginLeft="@dimen/MarginXL">
+			<EditText
+   				android:id="@+id/edtSerieFourier"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:hint="2"
+				android:selectAllOnFocus="true"
+				android:inputType="number"
+				android:maxLength="3"
+				style="@style/Text.Edit"/>	
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="left|center_vertical"
+				android:text="Série de Fourier a l'ordre "
+				style="@style/Text.Label"/>		
+
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

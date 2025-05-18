@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_margin="@dimen/MarginXL">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<ImageView
+			android:id="@+id/imgPrevious"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin = "@dimen/MarginM"	
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:scaleType="centerInside"
+			android:src="@android:drawable/ic_media_previous"
+			 />
+
+		<ImageView
+			android:id="@+id/imgFormula"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:padding = "@dimen/MarginS"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:scaleType="centerInside"
+			android:src="@drawable/sinus_x"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent" />
+
+		<ImageView
+			android:id="@+id/imgNext"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin = "@dimen/MarginM"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:scaleType="centerInside"
+			android:src="@android:drawable/ic_media_next"
+			 />
+
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center">
+		<ImageView
+			android:id="@+id/btnReward"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_gravity="center"
+			android:src="@android:drawable/ic_media_rew"
+			style="@style/Button"/> 
+
+		<ImageView
+			android:id="@+id/btnMinus"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_gravity="center"
+			android:src="@android:drawable/ic_media_previous"
+			style="@style/Button"/> 
+
+		<EditText
+   			android:id="@+id/edtOrder"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:padding="10dp"
+			android:minWidth="100dp"
+			android:gravity="center"
+			android:hint="2"
+			android:selectAllOnFocus="true"
+			android:inputType="number"
+			android:maxLength="3"
+			style="@style/Text.Edit"/>	
+
+		<ImageView
+			android:id="@+id/btnAdd"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_gravity="center"
+			android:src="@android:drawable/ic_media_next"
+			style="@style/Button"/> 
+
+		<ImageView
+			android:id="@+id/btnForward"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_gravity="center"
+			android:src="@android:drawable/ic_media_ff"
+			style="@style/Button"/> 
+
+	</LinearLayout>
+
+	<Tutoriels.Droid.Customs.HistogrammeView
+		android:id="@+id/idHisto"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_margin = "@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:textColor="@color/textColorPrimary"
+		android:textSize="@dimen/textH"
+		android:background="@color/windowBackground" />
+</LinearLayout>

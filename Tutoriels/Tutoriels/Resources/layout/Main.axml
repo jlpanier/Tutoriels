@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <Button
+        android:id="@+id/MyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Hello" />
+    <Button
+        android:id="@+id/popupButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showPopup" />
+    <TextView
+        android:id="@+id/Heading"
+        android:text="Tutorials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        style="@style/Text.Titre" />
+
+    <ListView
+        android:id="@+id/lvTutorials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:cacheColorHint="#FFDAFF7F"
+	    android:divider="@drawable/divider_item_menu"/>
+  
+    <Toolbar
+        android:id="@+id/toolbarBottom"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="@color/statusBarColor"
+        android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

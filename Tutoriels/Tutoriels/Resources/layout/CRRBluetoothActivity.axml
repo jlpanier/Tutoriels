@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS" >
+
+		<Spinner
+			android:id="@+id/spTypeMessage"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+  			android:layout_margin="@dimen/MarginS"
+			android:layout_gravity="center"
+			android:gravity="center"
+			style="@style/Spinner.Label"/>
+		
+		<Button
+			android:id="@+id/btnStart"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="Start"
+			style="@style/Button"/>	
+
+	</LinearLayout>
+
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS" >
+		
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Bonded Devices"
+			style="@style/Text.Label"/>	
+				
+		<TextView
+			android:id="@+id/tvNoBondedDevices"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="No bounded devices found"
+			style="@style/Text.Edit"/>	
+
+		<ListView
+			android:id="@+id/lvBondedDevices"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			style="@style/ListView"
+			/>
+
+	</LinearLayout>
+
+	<ListView
+        android:id="@+id/lvText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+</LinearLayout>

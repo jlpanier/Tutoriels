@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="left|center_vertical"
+		android:text="Couleur application"
+		style="@style/Text.Label"/>	
+
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="50"
+			android:background="@color/color50"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="100"
+			android:background="@color/color100"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="200"
+			android:background="@color/color200"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="300"
+			android:background="@color/color300"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="400"
+			android:background="@color/color400"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="500"
+			android:background="@color/color500"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="600"
+			android:background="@color/color600"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="700"
+			android:background="@color/color700"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="800"
+			android:background="@color/color800"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="900"
+			android:background="@color/color900"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="A100"
+			android:background="@color/colorA100"/>	
+		
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="A200"
+			android:background="@color/colorA200"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="A400"
+			android:background="@color/colorA400"/>	
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:text="A700"
+			android:background="@color/colorA700"/>	
+
+	</LinearLayout>
+	
+	<View style="@style/View.Separator" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="left|center_vertical"
+		android:text="ToggleButton"
+		style="@style/Text.Label"/>	
+
+	<ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+        android:textOff="Off"
+        android:textOn="On"
+		android:padding="@dimen/MarginS"
+		android:background="@drawable/toggle_button_selector"
+	/>
+
+	<View style="@style/View.Separator" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="left|center_vertical"
+		android:text="Edit Text"
+		style="@style/Text.Label"/>	
+
+	<EditText
+		android:id="@+id/edittext"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:inputType="text"
+		style="@style/EditText"/>
+
+	<View style="@style/View.Separator" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="left|center_vertical"
+		android:text="RadioGroup"
+		style="@style/Text.Label"/>	
+
+
+	<RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red" />
+        <RadioButton
+            android:id="@+id/radio_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue" />
+    </RadioGroup>
+
+	<View style="@style/View.Separator" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="left|center_vertical"
+		android:text="RatingBar"
+		style="@style/Text.Label"/>	
+
+
+	<RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+		android:numStars="5"
+        android:stepSize="1.0" />
+
+	<View style="@style/View.Separator" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="left|center_vertical"
+		android:text="RatingBar"
+		style="@style/Text.Label"/>	
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Off"
+        android:textOn="On"
+        android:text="Switch button"
+        android:disabledAlpha="2"
+        android:id="@+id/switchButton" />
+
+	<View style="@style/View.Separator" />
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="left|center_vertical"
+		android:text="Spinner"
+		style="@style/Text.Label"/>	
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/planet_prompt" />
+
+	<View style="@style/View.Separator" />
+</LinearLayout>

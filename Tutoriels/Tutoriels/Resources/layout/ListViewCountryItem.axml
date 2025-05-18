@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:background="@drawable/ListViewDepartementSelector">
+
+	<ImageView
+        android:id="@+id/imgFlag"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:scaleType="centerInside"
+        android:padding="5dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="left|center_vertical"
+		android:gravity="left|center_vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tvLigne1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+  		    style="@style/Text.Item1"/>
+        <TextView
+            android:id="@+id/tvLigne2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Text.Item2" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgProjection"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:padding="@dimen/PaddingS"/>
+</LinearLayout>

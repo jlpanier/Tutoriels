@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Create an XML file named and save it inside the Resources/Layout folder. -->
+<!-- This file defines a simple TextView that will be used for each item that appears in the list of suggestions -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:textSize="16sp"
+    android:textColor="#000">
+</TextView>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_margin="@dimen/MarginXL">
+
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Spinner
+			android:id="@+id/spUrl"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_gravity="center"
+			android:gravity="center"
+			style="@style/Spinner.Label"/>
+		
+		<Button
+   			android:id="@+id/btnValider"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_margin="@dimen/MarginS"
+			android:layout_gravity="center"
+			android:gravity="center"
+  			android:text="Send"
+			style="@style/Button"/>	
+
+	</LinearLayout>
+
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Time"
+				style="@style/Text.Label" />
+
+			<TextView
+				android:id="@+id/tvTime"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text=""
+				style="@style/TextView.Item" />
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Status"
+				android:layout_gravity="center"
+				android:gravity="center"
+				style="@style/Text.Label" />
+
+			<TextView
+				android:id="@+id/tvStatus"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text=""
+				style="@style/TextView.Item" />
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Description"
+				android:layout_gravity="center"
+				android:gravity="center"
+				style="@style/Text.Label" />
+
+			<TextView
+				android:id="@+id/tvStatusDescription"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text=""
+				style="@style/TextView.Item" />
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Server"
+				style="@style/Text.Label" />
+
+			<TextView
+				android:id="@+id/tvServer"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text=""
+				style="@style/TextView.Item" />
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Protocol"
+				style="@style/Text.Label" />
+
+			<TextView
+				android:id="@+id/tvProtocol"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text=""
+				style="@style/TextView.Item" />
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Method"
+				style="@style/Text.Label" />
+
+			<TextView
+				android:id="@+id/tvMethod"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text=""
+				style="@style/TextView.Item" />
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:visibility="gone"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="Last modified"
+				android:layout_gravity="center"
+				android:gravity="center"
+				style="@style/Text.Label" />
+
+			<TextView
+				android:id="@+id/tvLastModified"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text=""
+				android:layout_gravity="center"
+				android:gravity="center"
+				style="@style/TextView.Item" />
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Length"
+				style="@style/Text.Label" />
+
+			<TextView
+				android:id="@+id/tvContentLength"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text=""
+				style="@style/TextView.Item" />
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<ScrollView
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<ProgressBar
+				android:id="@+id/progressbar"
+				style="?android:attr/progressBarStyleLarge"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_vertical|center_horizontal"
+				android:visibility="visible" />
+
+			<LinearLayout 
+				android:id="@+id/layoutresult"
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:visibility="gone">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="Response"
+					style="@style/Text.Label" />
+
+				<TextView
+					android:id="@+id/tvResponse"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text=""
+					style="@style/TextView.Item" />
+			
+			</LinearLayout>
+			
+		</LinearLayout>
+	</ScrollView>
+
+			
+</LinearLayout>

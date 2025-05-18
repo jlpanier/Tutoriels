@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			 <TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="@dimen/textB"
+				android:text="Image Source 1" />
+			<ImageView
+				android:id="@+id/ImageSource1"
+				android:layout_width="100dp"
+				android:layout_height="100dp" />
+
+			 <TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="@dimen/textB"
+				android:text="Image Source 2" />
+			<ImageView
+				android:id="@+id/ImageSource2"
+				android:layout_width="100dp"
+				android:layout_height="100dp" />
+
+			 <TextView
+				android:id="@+id/txtImage3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="@dimen/textB"
+ 				android:text="Concaténation des 2 sources" />
+			<ImageView
+				android:id="@+id/ImageSource3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="@dimen/textB"
+ 				android:text="Concaténation des 2 sources avec rescale" />
+			<ImageView
+				android:id="@+id/ImageSource4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+
+			</LinearLayout>
+
+	</ScrollView>
+</LinearLayout>

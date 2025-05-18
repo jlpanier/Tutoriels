@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:layout_weight="1">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="@dimen/textB"
+				android:text="Volume"
+				style = "@style/Text.Label"/>
+
+			<NumberPicker
+				android:id="@+id/npVolume"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				style="@style/NumberPicker"
+				/>
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_margin="@dimen/MarginS">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="@dimen/textB"
+				android:text="Pitch"
+				style = "@style/Text.Label"/>
+
+			<NumberPicker
+				android:id="@+id/npPitch"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				style="@style/NumberPicker"
+				/>
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="@dimen/textB"
+		android:text="Language"
+		style = "@style/Text.Label"/>
+
+	<Spinner
+		android:id="@+id/spLanguage"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		style="@style/Spinner.Label"/>	
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textSize="@dimen/textB"
+		android:text="Text"
+		style = "@style/Text.Label"/>
+
+	<EditText
+		android:id="@+id/edittext"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="start"
+		android:gravity="start"
+		style="@style/EditText"/>
+
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		>
+
+		<Button
+			android:id="@+id/btnGo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:text="Go"
+			style="@style/Button"/>
+
+		<Button
+			android:id="@+id/btnCancel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:text="Cancel"
+			style="@style/Button"/>
+
+	</LinearLayout>
+
+</LinearLayout>

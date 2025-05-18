@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+		<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:layout_weight="1">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="@dimen/textB"
+				android:text="Volume"
+				style = "@style/Text.Label"/>
+
+			<NumberPicker
+				android:id="@+id/npVolume"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				style="@style/NumberPicker"
+				/>
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_margin="@dimen/MarginS">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="@dimen/textB"
+				android:text="Pitch"
+				style = "@style/Text.Label"/>
+
+			<NumberPicker
+				android:id="@+id/npPitch"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				style="@style/NumberPicker"
+				/>
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:text="Speaker"
+	    style="@style/Text.Label"/>
+
+	<TextView
+		android:id="@+id/tvSpeaker"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:text="..."
+	    android:background="@drawable/shape_roundrectangle_1xprimary_transparent"
+	    style="@style/Text.Label"/>
+
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:layout_margin="@dimen/MarginS"
+			android:text="Speech"
+			style="@style/Text.Label"/>
+
+		<ImageView
+			android:id="@+id/imgListen"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:src="@drawable/ecoute_900"
+			android:scaleType="centerCrop"
+			/>	
+
+		<Button
+			android:id="@+id/btnGo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="@dimen/MarginS"
+			android:text="Speech"
+			style="@style/Button"/>
+
+	</LinearLayout>
+
+	<ListView
+		android:id="@+id/lvSpeech"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		style="@style/ListView"
+		/>
+
+</LinearLayout>

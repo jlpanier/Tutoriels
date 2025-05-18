@@ -1,0 +1,983 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<countries>
+  <country>
+    <shortname>Afghanistan</shortname>
+    <longname>République islamique d'Afghanistan</longname>
+    <wiki>https://fr.wikipedia.org/wiki/R%C3%A9publique_islamique_d%27Afghanistan</wiki>
+  </country>
+  <country>
+    <shortname>Afrique du Sud</shortname>
+    <longname>République d'Afrique du Sud</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Albanie</shortname>
+    <longname>République d'Albanie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Algérie</shortname>
+    <longname>République algérienne démocratique et populaire</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Allemagne</shortname>
+    <longname>République fédérale d'Allemagne</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Andorre</shortname>
+    <longname>Principauté d'Andorre</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Angola</shortname>
+    <longname>République d'Angola</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Antigua-et-Barbuda</shortname>
+    <longname>Antigua-et-Barbuda</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Arabie saoudite</shortname>
+    <longname>Royaume d'Arabie saoudite</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Argentine</shortname>
+    <longname>République argentine</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Arménie</shortname>
+    <longname>République d'Arménie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Australie</shortname>
+    <longname>Commonwealth d'Australie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Autriche</shortname>
+    <longname>République d'Autriche</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Azerbaïdjan</shortname>
+    <longname>République d'Azerbaïdjan</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Bahamas</shortname>
+    <longname>Commonwealth des Bahamas</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Bahreïn</shortname>
+    <longname>Royaume de Bahreïn</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Bangladesh</shortname>
+    <longname>République populaire du Bangladesh</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Barbade</shortname>
+    <longname>Barbade</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Belgique</shortname>
+    <longname>Royaume de Belgique</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Belize</shortname>
+    <longname>Belize</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Bénin</shortname>
+    <longname>République du Bénin</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Bhoutan</shortname>
+    <longname>Royaume du Bhoutan</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Biélorussie</shortname>
+    <longname>République du Bélarus</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Birmanie</shortname>
+    <longname>Union de Birmanie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Bolivie</shortname>
+    <longname>État Plurinational de Bolivie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Bosnie-Herzégovine</shortname>
+    <longname>République de Bosnie-Herzégovine</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Botswana</shortname>
+    <longname>République du Botswana</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Brésil</shortname>
+    <longname>République fédérative du Brésil</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Brunei</shortname>
+    <longname>État de Brunei Darussalam</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Bulgarie</shortname>
+    <longname>République de Bulgarie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Burkina Faso</shortname>
+    <longname>République du Burkina</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Burundi</shortname>
+    <longname>République du Burundi</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Cambodge</shortname>
+    <longname>Royaume du Cambodge</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Cameroun</shortname>
+    <longname>République du Cameroun</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Canada</shortname>
+    <longname>Canada</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Cap-Vert</shortname>
+    <longname>République du Cap-Vert</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Centrafrique</shortname>
+    <longname>République centrafricaine</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Chili</shortname>
+    <longname>République du Chili</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Chine</shortname>
+    <longname>République populaire de Chine</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Chypre</shortname>
+    <longname>République de Chypre</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Colombie</shortname>
+    <longname>République de Colombie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Comores</shortname>
+    <longname>Union des Comores</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Congo-Brazzaville</shortname>
+    <longname>République du Congo</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>République démocratique du Congo</shortname>
+    <longname>République démocratique du Congo</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Îles Cook</shortname>
+    <longname>Îles Cook</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Corée du Nord</shortname>
+    <longname>République populaire démocratique de Corée</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Corée du Sud</shortname>
+    <longname>République de Corée</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Costa Rica</shortname>
+    <longname>République du Costa Rica</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Côte d'Ivoire</shortname>
+    <longname>République de Côte d'Ivoire</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Croatie</shortname>
+    <longname>République de Croatie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Cuba</shortname>
+    <longname>République de Cuba</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Danemark</shortname>
+    <longname>Royaume du Danemark</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Djibouti</shortname>
+    <longname>République de Djibouti</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>République dominicaine</shortname>
+    <longname>République dominicaine</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Dominique</shortname>
+    <longname>Commonwealth de Dominique</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Égypte</shortname>
+    <longname>République arabe d'Égypte</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Émirats arabes unis</shortname>
+    <longname>Fédération des Émirats arabes unis</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Équateur</shortname>
+    <longname>République de l'Équateur</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Érythrée</shortname>
+    <longname>État d'Érythrée</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Espagne</shortname>
+    <longname>Royaume d'Espagne</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Estonie</shortname>
+    <longname>République d'Estonie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Eswatini</shortname>
+    <longname>Royaume d’Eswatini</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>États-Unis</shortname>
+    <longname>États-Unis d'Amérique</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Éthiopie</shortname>
+    <longname>République démocratique fédérale d'Éthiopie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Fidji</shortname>
+    <longname>République des Îles Fidji</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Finlande</shortname>
+    <longname>République de Finlande</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>France</shortname>
+    <longname>République française</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Gabon</shortname>
+    <longname>République gabonaise</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Gambie</shortname>
+    <longname>République de Gambie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Géorgie</shortname>
+    <longname>République de Géorgie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Ghana</shortname>
+    <longname>République du Ghana</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Grèce</shortname>
+    <longname>République hellénique</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Grenade</shortname>
+    <longname>Grenade</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Guatemala</shortname>
+    <longname>République du Guatemala</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Guinée</shortname>
+    <longname>République de Guinée</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Guinée-Bissau</shortname>
+    <longname>République de Guinée-Bissau</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Guinée équatoriale</shortname>
+    <longname>République de Guinée équatoriale</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Guyana</shortname>
+    <longname>République coopérative du Guyana</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Haïti</shortname>
+    <longname>République d'Haïti</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Honduras</shortname>
+    <longname>République du Honduras</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Hongrie</shortname>
+    <longname>Hongrie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Inde</shortname>
+    <longname>République de l'Inde</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Indonésie</shortname>
+    <longname>République d'Indonésie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Irak</shortname>
+    <longname>République d'Irak</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Iran</shortname>
+    <longname>République islamique d'Iran</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Irlande</shortname>
+    <longname>État libre d'Irlande</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Islande</shortname>
+    <longname>République d'Islande</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Italie</shortname>
+    <longname>République italienne</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Jamaïque</shortname>
+    <longname>Jamaïque</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Japon</shortname>
+    <longname>État du Japonnote</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Jordanie</shortname>
+    <longname>Royaume hachémite de Jordanie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Kazakhstan</shortname>
+    <longname>République du Kazakhstan</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Kenya</shortname>
+    <longname>République du Kenya</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Kirghizistan</shortname>
+    <longname>République kirghize</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Kiribati</shortname>
+    <longname>République de Kiribati</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Koweït</shortname>
+    <longname>État du Koweït</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Laos</shortname>
+    <longname>République démocratique populaire lao</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Lesotho</shortname>
+    <longname>Royaume du Lesotho</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Lettonie</shortname>
+    <longname>République de Lettonie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Liban</shortname>
+    <longname>République libanaise</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Liberia</shortname>
+    <longname>République du Libéria</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Libye</shortname>
+    <longname>État de Libye</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Liechtenstein</shortname>
+    <longname>Principauté du Liechtenstein</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Lituanie</shortname>
+    <longname>République de Lituanie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Luxembourg</shortname>
+    <longname>Grand-duché de Luxembourg</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Macédoine du Nord</shortname>
+    <longname>République de Macédoine du Nord</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Madagascar</shortname>
+    <longname>République de Madagascar</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Malaisie</shortname>
+    <longname>Fédération de Malaisie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Malawi</shortname>
+    <longname>République du Malawi</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Maldives</shortname>
+    <longname>République des Maldives</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Mali</shortname>
+    <longname>République du Mali</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Malte</shortname>
+    <longname>République de Malte</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Maroc</shortname>
+    <longname>Royaume du Maroc</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Îles Marshall</shortname>
+    <longname>République des Îles Marshall</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Maurice</shortname>
+    <longname>République de Maurice</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Mauritanie</shortname>
+    <longname>République islamique de Mauritanie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Mexique</shortname>
+    <longname>États unis mexicains</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Micronésie</shortname>
+    <longname>États fédérés de Micronésie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Moldavie</shortname>
+    <longname>République de Moldavie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Monaco</shortname>
+    <longname>Principauté de Monaco</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Mongolie</shortname>
+    <longname>Mongolie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Monténégro</shortname>
+    <longname>République du Monténégro</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Mozambique</shortname>
+    <longname>République du Mozambique</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Namibie</shortname>
+    <longname>République de Namibie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Nauru</shortname>
+    <longname>République de Nauru</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Népal</shortname>
+    <longname>République démocratique fédérale du Népal</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Nicaragua</shortname>
+    <longname>République du Nicaragua</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Niger</shortname>
+    <longname>République du Niger</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Nigeria</shortname>
+    <longname>République fédérale du Nigéria</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Niue</shortname>
+    <longname>République de Nioué</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Norvège</shortname>
+    <longname>Royaume de Norvège</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Nouvelle-Zélande</shortname>
+    <longname>Nouvelle-Zélande</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Oman</shortname>
+    <longname>Sultanat d'Oman</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Ouganda</shortname>
+    <longname>République d'Ouganda</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Ouzbékistan</shortname>
+    <longname>République d'Ouzbékistan</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Pakistan</shortname>
+    <longname>République islamique du Pakistan</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Palaos</shortname>
+    <longname>République des Palaos</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Palestine</shortname>
+    <longname>État de Palestine</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Panama</shortname>
+    <longname>République du Panama</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Papouasie-Nouvelle-Guinée</shortname>
+    <longname>Papouasie-Nouvelle-Guinée</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Paraguay</shortname>
+    <longname>République du Paraguay</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Pays-Bas</shortname>
+    <longname>Royaume des Pays-Bas</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Pérou</shortname>
+    <longname>République du Pérou</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Philippines</shortname>
+    <longname>République des Philippines</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Pologne</shortname>
+    <longname>République de Pologne</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Portugal</shortname>
+    <longname>République portugaise</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Qatar</shortname>
+    <longname>État du Qatar</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Roumanie</shortname>
+    <longname>Roumanie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Royaume-Uni</shortname>
+    <longname>Royaume-Uni</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Russie</shortname>
+    <longname>Fédération de Russie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Rwanda</shortname>
+    <longname>République rwandaise</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Saint-Christophe-et-Niévès</shortname>
+    <longname>Fédération de Saint-Christophe-et-Niévès</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Sainte-Lucie</shortname>
+    <longname>Sainte-Lucie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Saint-Marin</shortname>
+    <longname>République de Saint-Marin</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Saint-Vincent-et-les-Grenadines</shortname>
+    <longname>Saint-Vincent-et-les-Grenadines</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Salomon</shortname>
+    <longname>Îles Salomon</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Salvador</shortname>
+    <longname>République du Salvador</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Samoa</shortname>
+    <longname>État indépendant des Samoa</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>São Tomé-et-Principe</shortname>
+    <longname>République démocratique de Sao Tomé-et-Principe</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Sénégal</shortname>
+    <longname>République du Sénégal</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Serbie</shortname>
+    <longname>République de Serbie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Seychelles</shortname>
+    <longname>République des Seychelles</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Sierra Leone</shortname>
+    <longname>République de Sierra Leone</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Singapour</shortname>
+    <longname>République de Singapour</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Slovaquie</shortname>
+    <longname>République slovaque</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Slovénie</shortname>
+    <longname>République de Slovénie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Somalie</shortname>
+    <longname>République fédérale de Somalie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Soudan</shortname>
+    <longname>République du Soudan</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Soudan du Sud</shortname>
+    <longname>République du Soudan du Sud</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Sri Lanka</shortname>
+    <longname>République socialiste démocratique de Sri Lanka</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Suède</shortname>
+    <longname>Royaume de Suède</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Suisse</shortname>
+    <longname>Confédération suisse</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Suriname</shortname>
+    <longname>République du Suriname</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Syrie</shortname>
+    <longname>République arabe syrienne</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Tadjikistan</shortname>
+    <longname>République du Tadjikistan</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Tanzanie</shortname>
+    <longname>République unie de Tanzanie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Tchad</shortname>
+    <longname>République du Tchad</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Tchéquie</shortname>
+    <longname>République tchèque</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Thaïlande</shortname>
+    <longname>Royaume de Thaïlande</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Timor oriental</shortname>
+    <longname>République démocratique du Timor oriental</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Togo</shortname>
+    <longname>République togolaise</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Tonga</shortname>
+    <longname>Royaume des Tonga</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Trinité-et-Tobago</shortname>
+    <longname>République de Trinité-et-Tobago</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Tunisie</shortname>
+    <longname>République tunisienne</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Turkménistan</shortname>
+    <longname>République du Turkménistan</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Turquie</shortname>
+    <longname>République de Turquie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Tuvalu</shortname>
+    <longname>Tuvalu</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Ukraine</shortname>
+    <longname>Ukraine</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Uruguay</shortname>
+    <longname>République orientale de l'Uruguay</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Vanuatu</shortname>
+    <longname>République du Vanuatu</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Vatican</shortname>
+    <longname>État de la Cité du Vatican</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Venezuela</shortname>
+    <longname>République bolivarienne du Venezuela</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Viêt Nam</shortname>
+    <longname>République socialiste du Viêt Nam</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Yémen</shortname>
+    <longname>République du Yémen</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Zambie</shortname>
+    <longname>République de Zambie</longname>
+    <wiki></wiki>
+  </country>
+  <country>
+    <shortname>Zimbabwe</shortname>
+    <longname>République du Zimbabwe</longname>
+    <wiki></wiki>
+  </country>
+</countries>

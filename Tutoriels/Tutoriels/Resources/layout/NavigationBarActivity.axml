@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<CheckBox
+		android:id="@+id/cbSystemUiVisibility"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="System UI Visibility"
+		style="@style/Text.Label"/>		
+
+	<CheckBox
+		android:id="@+id/cbLowProfile"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Low Profile"
+		style="@style/Text.Label"/>		
+
+
+	<CheckBox
+		android:id="@+id/cbHideNavigation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Hide Navigation"
+		style="@style/Text.Label"/>		
+
+	<CheckBox
+		android:id="@+id/cbFullscreen"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Fullscreen"
+		style="@style/Text.Label"/>		
+
+	<CheckBox
+		android:id="@+id/cbLightNavigationBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Light Navigation Bar"
+		style="@style/Text.Label"/>		
+
+	<CheckBox
+		android:id="@+id/cbLayoutStable"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Layout Stable"
+		style="@style/Text.Label"/>		
+
+	<CheckBox
+		android:id="@+id/cbLayoutHideNavigation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Layout Hide Navigation"
+		style="@style/Text.Label"/>		
+
+	<CheckBox
+		android:id="@+id/cbLayoutFullscreen"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Layout Fullscreen"
+		style="@style/Text.Label"/>		
+
+
+	<CheckBox
+		android:id="@+id/cbLayoutFlags"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Layout Flags"
+		style="@style/Text.Label"/>		
+
+	<CheckBox
+		android:id="@+id/cbImmersive"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Immersive"
+		style="@style/Text.Label"/>		
+
+	<CheckBox
+		android:id="@+id/cbImmersiveSticky"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Immersive Sticky"
+		style="@style/Text.Label"/>		
+
+	<CheckBox
+		android:id="@+id/cbLightStatusBar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="left"
+		android:text="Light Status Bar"
+		style="@style/Text.Label"/>		
+
+</LinearLayout>

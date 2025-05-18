@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_margin="@dimen/MarginXL">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:text="Pick a fle"
+		style="@style/Text.Titre"/>
+
+	<TextView
+   		android:id="@+id/tvFile"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:text=" "
+		style="@style/Text.Label"/>
+	
+	<Button
+   		android:id="@+id/btnPick"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_margin="@dimen/MarginS"
+		android:layout_gravity="center"
+		android:gravity="center"
+  		android:text="Pick"
+		style="@style/Button"/>			
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpagerid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/tvItem1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/afghanistan_projection"
+		    />
+
+        <ImageView
+            android:id="@+id/tvItem2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/afrique_du_sud_projection"
+		    />
+
+        <ImageView
+            android:id="@+id/tvItem3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/russie_projection"
+		    />
+
+        <ImageView
+            android:id="@+id/tvItem4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/algerie_projection"
+		    />
+
+        <ImageView
+            android:id="@+id/tvItem5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/angola_projection"
+		    />
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>

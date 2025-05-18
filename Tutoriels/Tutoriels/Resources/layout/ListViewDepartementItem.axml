@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/ListViewDepartementSelector"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Text"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="10dip">
+        <TextView
+            android:id="@+id/tvDepartement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+  		    style="@style/TextView.Item"/>
+        <TextView
+            android:id="@+id/tvPrefecture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Text.Label" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgDepartement"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:padding="5dp"/>
+</LinearLayout>

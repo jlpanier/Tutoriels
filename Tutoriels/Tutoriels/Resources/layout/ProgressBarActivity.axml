@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Min"
+				style="@style/Text.Label" />
+
+			<EditText
+   				android:id="@+id/edtMin"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:hint="0"
+				android:text="0"
+				android:numeric="integer"
+				android:singleLine="true"
+				android:maxLength="3"
+				android:inputType="numberSigned"
+				style="@style/EditText.Item"/>	
+
+		</LinearLayout>
+
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Max"
+				style="@style/Text.Label" />
+
+			<EditText
+   				android:id="@+id/edtMax"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:hint="0"
+				android:text="100"
+				android:numeric="integer"
+				android:singleLine="true"
+				android:maxLength="3"
+				android:inputType="numberSigned"
+				style="@style/EditText.Item"/>	
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Progress"
+				style="@style/Text.Label" />
+
+			<EditText
+   				android:id="@+id/edtProgress"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:hint="0"
+				android:text="1"
+				android:numeric="integer"
+				android:singleLine="true"
+				android:maxLength="3"
+				android:inputType="numberSigned"
+				style="@style/EditText.Item"/>	
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Background"
+				style="@style/Text.Label" />
+
+			<Spinner
+				android:id="@+id/spBackground"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+  				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				style="@style/Spinner.Label"/>
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Indeterminate"
+				style="@style/Text.Label" />
+
+			<Spinner
+				android:id="@+id/spIndeterminate"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+  				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				style="@style/Spinner.Label"/>
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:text="Progress"
+				style="@style/Text.Label" />
+
+			<Spinner
+				android:id="@+id/spProgress"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+  				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				style="@style/Spinner.Label"/>
+
+		</LinearLayout>
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="@dimen/MarginS"
+			android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+			<CheckBox
+				android:id="@+id/cbIndeterminate"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="left"
+				android:text="Indeterminate"
+				style="@style/CheckBox.Label"/>	
+
+			<CheckBox
+				android:id="@+id/cbAnimate"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="left"
+				android:text="Animate"
+				style="@style/CheckBox.Label"/>	
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<ScrollView
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<LinearLayout 
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+				<ProgressBar
+					android:id="@+id/progressBarStyle"
+					style="?android:attr/progressBarStyle"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:gravity="center"
+					android:visibility="visible" />
+
+			</LinearLayout>
+			<LinearLayout 
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+				<ProgressBar
+					android:id="@+id/progressBarStyleHorizontal"
+					style="?android:attr/progressBarStyleHorizontal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:visibility="visible" />
+
+			</LinearLayout>
+			<LinearLayout 
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+				<ProgressBar
+					android:id="@+id/progressBarStyleLarge"
+					style="?android:progressBarStyleLarge"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:visibility="visible" />
+
+			</LinearLayout>
+			<LinearLayout 
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+				<ProgressBar
+					android:id="@+id/progressBarStyleSmall"
+					style="?android:progressBarStyleSmall"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:visibility="visible" />
+
+			</LinearLayout>
+
+			<ProgressBar
+				android:id="@+id/progressBarStyleSmall"
+				style="?android:progressBarStyleHorizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:visibility="visible"
+				/>
+
+
+			<LinearLayout 
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_weight="1"
+				android:layout_margin="@dimen/MarginS"
+				android:layout_gravity="center"
+				android:gravity="center"
+				style="@style/BarraProgreso"
+				android:background="@drawable/shape_roundrectangle_1xprimary_transparent">
+
+				<ProgressBar
+					android:id="@+id/progressBarStyleSmall"
+					style="?android:progressBarStyleHorizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:indeterminate="true"
+					android:visibility="visible"
+					/>
+
+			</LinearLayout>
+			<RelativeLayout 
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+				<ProgressBar
+					android:id="@+id/circularProgressbar"
+					style="?android:attr/progressBarStyleHorizontal"
+					android:layout_width="300dp"
+					android:layout_height="wrap_content"
+					android:indeterminate="true"
+					android:layout_centerInParent="true"
+					android:progressDrawable="@drawable/progressbar_rectangle"
+					/>
+				<ImageView
+					android:layout_width="100dp"
+					android:layout_height="100dp"
+					android:background="@drawable/logo"
+					android:layout_centerInParent="true"/>
+				<TextView
+					android:id="@+id/tv"
+					android:layout_width="250dp"
+					android:layout_height="250dp"
+					android:gravity="center"
+					android:text="25%"
+					android:layout_centerInParent="true"
+					android:textColor="@color/colorPrimaryDark"
+					android:textSize="20sp" />
+			</RelativeLayout>
+			
+		</LinearLayout>
+
+	</ScrollView>
+</LinearLayout>

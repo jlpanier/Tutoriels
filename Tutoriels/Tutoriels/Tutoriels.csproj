@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0-android</TargetFramework>
+    <RuntimeIdentifiers Condition="$(TargetFramework.Contains('-android'))">android-arm;android-arm64;android-x86;android-x64</RuntimeIdentifiers>
+    <SupportedOSPlatformVersion>29.0</SupportedOSPlatformVersion>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>com.jelosperone.tutoriels</ApplicationId>
+    <ApplicationVersion>1</ApplicationVersion>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <!--
+      Enables trim analyzers and full trimming during Release mode.
+      To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/trimming-options#trimming-granularity
+    -->
+    <TrimMode>full</TrimMode>
+    <ApplicationIcon>Resources\drawable\logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Resources\drawable\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\" />
+    <Folder Include="Code\Customs\" />
+    <Folder Include="Code\Dialogs\" />
+    <Folder Include="Code\Fragments\" />
+    <Folder Include="Code\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.ViewPager" Version="1.1.0.2" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Repository\Repository.csproj" />
+  </ItemGroup>
+</Project>
