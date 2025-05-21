@@ -244,7 +244,6 @@
     <item>Zimbabwe</item>
   </string-array>
  
-  <string name="Hello">Hello World, Click Me!</string>
   <string name="showPopup">showPopup!!!</string>
   <string name="ApplicationName">Tutorial</string>
   <string name="selected_date_text">Select Date</string>

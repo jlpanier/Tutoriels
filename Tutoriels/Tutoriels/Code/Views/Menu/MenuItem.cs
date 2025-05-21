@@ -30,6 +30,7 @@ using Tutoriels.Code.Activities.Text2Speech;
 using Tutoriels.Code.Activities.TutorialBitmap;
 using Tutoriels.Code.Activities.Unicodes;
 using Tutoriels.Code.Activities.Webview;
+using Tutoriels.Code.Views.Touch;
 
 namespace Tutoriels.Code.Activities.Menu
 {
@@ -94,9 +95,6 @@ namespace Tutoriels.Code.Activities.Menu
             [StringValue("CRR")]
             [TypeValue(typeof(AlphaBluetoothActivity))]
             CRR,
-            [StringValue("Screen Size")]
-            [TypeValue(typeof(ScreenSizeActivity))]
-            ScreenSize,
             [StringValue("Text2Speech")]
             [TypeValue(typeof(Text2SpeechActivity))]
             Text2Speech,
@@ -151,6 +149,9 @@ namespace Tutoriels.Code.Activities.Menu
             [StringValue("Pager")]
             [TypeValue(typeof(ViewPagerActivity))]
             Pager,
+            [StringValue("Touch")]
+            [TypeValue(typeof(TouchActivity))]
+            Touch,
         };
 
         public TypeMenus Menu { get; private set; }
