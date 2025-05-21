@@ -45,10 +45,5 @@ namespace Tutoriels.Code.Activities
         }
 
         #endregion
-
-        #region User Interface
-
-        #endregion
-
     }
 }

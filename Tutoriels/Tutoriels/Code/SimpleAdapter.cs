@@ -38,6 +38,7 @@ namespace Tutoriels.Code
         public void Add(T item)
         {
             Items.Add(item);
+            NotifyDataSetChanged();
         }
     }
 }
